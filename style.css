@@ -1,0 +1,431 @@
+html {
+    font-size: 6px;
+}
+body {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(223, 238, 223);
+}
+.head {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 5px 10px -5px rgba(0,0,0,0.35);
+}
+/*this is the first styling for fitness*/
+.logobox {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.8rem;
+    color: rgb(5, 43, 5);
+}
+/*this is for the first body text and a button.*/
+.body {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin-left: 2%;
+}
+.servicebox {
+    display: inline;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+} 
+.title {
+    font-size: 5rem;
+    color: rgb(3, 28, 3);
+}
+.paragraph {
+    font-size: 2.6rem;
+    font-weight: 100;
+}
+.button {
+    display: inline;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(8, 61, 8);
+    border-radius: 30px;
+    padding: 5px 25px 5px 25px;
+    margin-left: 40%;
+}
+/*this is for the trainers, blog, plans and contact.*/
+.textbox {
+    display: flex;
+    width: 30%;
+    height: 40px;
+    margin-left: 10px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: rgb(12, 57, 12);
+}
+/*this is for the 3 cards*/
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 1%;
+    gap: 50px;
+    padding: 0px 0px 0px 5px;
+}
+/*This is for the first card*/
+.first {
+    display: block;
+    width: 30%;
+    height: 200px;
+}
+.yoga {
+    display: block;
+    width: 15%;
+     filter: invert(37%) sepia(94%) saturate(3840%) hue-rotate(85deg) brightness(50%) contrast(85%);
+}
+.a1 {
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 58, 5);
+}
+.a2 {
+    font-size: 2.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: rgb(4, 52, 4);
+}
+.link1 {
+    font-size: 2.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 48, 5);
+}
+/*This is for the second card*/
+.second {
+    width: 30%;
+    height: 200px;
+}
+.fit {
+    display: block;
+    width: 15%;
+     filter: invert(37%) sepia(94%) saturate(3840%) hue-rotate(85deg) brightness(50%) contrast(85%);
+}
+.b1 {
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 58, 5);
+}
+.b2 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: rgb(4, 52, 4);
+}
+.link2 {
+    font-size: 2.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 48, 5);
+}
+/*This is for the third card.*/
+.third {
+    width: 30%;
+    height: 200px;
+}
+.health {
+    display: block;
+    width: 15%;
+     filter: invert(37%) sepia(94%) saturate(3840%) hue-rotate(85deg) brightness(50%) contrast(85%);
+}
+.c1 {
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 58, 5);
+}
+.c2 {
+    font-size: 2.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: rgb(4, 52, 4);
+}
+.link3 {
+    font-size: 2.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 48, 5);
+}
+/*this is for the log in section.*/
+.logbox {
+    display: flex;
+    width: 20%;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.log {
+    color: white;
+    background-color: rgb(7, 45, 7);
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+}
+.log1 {
+    color: rgb(10, 57, 10);
+    background-color: rgb(186, 231, 186);
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid rgb(4, 63, 4);
+}
+/*This is for the second body.*/
+.body2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+.servicebox2 {
+    display: inline;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+} 
+.title2 {
+    font-size: 5rem;
+    color: rgb(3, 28, 3);
+}
+.paragraph2 {
+    font-size: 2.6rem;
+    font-weight: 100;
+}
+.button2 {
+    display: inline;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(8, 61, 8);
+    border-radius: 30px;
+    padding: 5px 25px 5px 25px;
+    margin-left: 46%;
+}
+/*This is for the second 3 cards*/
+.cards2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 0%;
+    gap: 55px;
+}
+/*this is for the scard1*/
+.scard1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    width: 20%;
+    height: 330px;
+    background-color: rgb(6, 57, 6);
+    border-radius: 15px;
+}
+.time {
+    width: 20%;
+    filter: invert(100%) brightness(200%);
+}
+.tt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+.bd {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: white;
+    width: 85%;
+}
+.b {
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(10, 57, 10);
+    background-color: rgb(186, 231, 186);
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(4, 63, 4);
+}
+/*this is for the scard 2*/
+.scard2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    width: 20%;
+    height: 330px;
+    background-color: rgb(203, 233, 203);
+    border-radius: 15px;
+}
+.gripper {
+    width: 20%;
+     filter: invert(37%) sepia(94%) saturate(3840%) hue-rotate(85deg) brightness(50%) contrast(85%);
+}
+.tt2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color: rgb(9, 52, 26);
+}
+.bd2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: rgb(9, 52, 26);
+    width: 85%;
+}
+.bt2 {
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 51, 10);
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(4, 63, 4);
+}
+/*this is for the scard 3*/
+.scard3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    width: 20%;
+    height: 330px;
+    background-color: rgb(203, 233, 203);
+    border-radius: 15px;
+    border-radius: 15px;
+}
+.arm2 {
+    width: 20%;
+     filter: invert(37%) sepia(94%) saturate(3840%) hue-rotate(85deg) brightness(50%) contrast(85%);
+}
+.tt3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color: rgb(9, 52, 26);
+}
+.bd3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: rgb(9, 52, 26);
+    width: 85%;
+}
+.bt3 {
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 51, 10);
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(4, 63, 4);
+}
+/*this is for the scard 4*/
+.scard4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    width: 20%;
+    height: 330px;
+    background-color: rgb(203, 233, 203);
+    border-radius: 15px;
+}
+.hbeat {
+    width: 20%;
+     filter: invert(37%) sepia(94%) saturate(3840%) hue-rotate(85deg) brightness(50%) contrast(85%);
+}
+.tt4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color: rgb(9, 52, 26);
+}
+.bd4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: rgb(9, 52, 26);
+    width: 85%;
+}
+.bt4 {
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 51, 10);
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(4, 63, 4);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    gap: 100px;
+    height: 350px;
+    width: 100%;
+    background-color: rgb(6, 57, 6);
+}
+.dis {
+    width: 25%;
+    height: 280px;
+}
+.wyoga {
+    width: 60%;
+    height: 280px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.dishead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    color: white;
+}
+.disp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.1rem;
+    text-align: justify;
+    color: white;
+}
+.lb {
+    margin-top: 40px;
+}
+.lastbutton {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 400px;
+    color: rgb(4, 36, 4);
+    background-color: rgb(187, 217, 187);
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+}
